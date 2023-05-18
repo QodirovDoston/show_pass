@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(98, 242, 213);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    position: relative;
+    width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+}
+
+.fa-sharp {
+    position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: aliceblue;
+}
+#icons_eye:hover {
+    color: rgb(10, 10, 165);
+    cursor: pointer;
+  }
